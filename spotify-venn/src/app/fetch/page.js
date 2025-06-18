@@ -26,8 +26,8 @@ const Page = async () => {
         completed: false
     };
 
-    const postRes = await postData(toDoExample);
-    console.log(postRes);
+    // const postRes = await postData(toDoExample);
+    // console.log(postRes);
 
     return (
         <div>

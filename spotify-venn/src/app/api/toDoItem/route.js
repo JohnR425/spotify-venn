@@ -1,5 +1,8 @@
 import { NextResponse } from 'next/server';
 
+//Run in terminal to start:
+//npx json-server db.json --port 5000
+
 export async function GET() {
     const res = await fetch("http://localhost:5000/todos");
     const json = await res.json();
